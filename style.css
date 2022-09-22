@@ -1,0 +1,143 @@
+/* Write styles here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Allerta", sans-serif;
+  max-width: 80rem;
+  margin: 20px auto;
+}
+
+/* ------------ Navbar Start ------------- */
+
+#navbarMonstera {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+#navMid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navMid div {
+  margin: 0 60px;
+  font-size: 20px;
+  position: relative;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+/* #navMid div:first-child::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 2.5px;
+  background: black;
+  position: absolute;
+  bottom: -20%;
+} */
+
+#navEnd {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navEnd div {
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+/* .menu-icon {
+  display: none;
+  height: 30px;
+  cursor: pointer;
+  background-color: #f1f; */
+
+#midWhole {
+  padding-top: 100px;
+}
+
+#midWholePart11 {
+  padding: 40px 0;
+}
+
+#monstera {
+  font-size: 80px;
+}
+
+#midWholePart11 ul li {
+  list-style: disc;
+  font-size: 20px;
+}
+
+#midWholePart11 ul li:nth-child(3),
+li:nth-child(4) {
+  font-family: "Abel", sans-serif;
+  font-size: 20px;
+}
+
+#midWholePart12 {
+  background-color: #2a7046;
+  width: 18%;
+  color: #ffffff;
+  padding: 10px 30px;
+  position: relative;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#midWholePart122 {
+  position: absolute;
+  right: 8%;
+  top: 30%;
+}
+
+#midWholePart13 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  padding-top: 100px;
+}
+
+.midWholePart13Parts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 -20px;
+}
+
+#feeding,
+#light,
+#care {
+  margin-right: 10px;
+  height: 60px;
+  width: 60px;
+}
+
+#midWholePart13 .text {
+  font-size: 14px;
+}
+
+#imgMain {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 85vh;
+  width: 35vw;
+}
+
+/* ------------ Main section End ------------- */
