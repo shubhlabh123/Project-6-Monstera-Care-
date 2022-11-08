@@ -9,7 +9,7 @@
 
 >I Deployed my Site on  Vercel. so you can check it out 👇
 <br> 
-<br> [https://project-6-monstera-care-m3jt-jekuzludm.vercel.app/)
+<br>[Live Link] (https://project-6-monstera-care-m3jt-jekuzludm.vercel.app/)
 
 ## What I Learned from this Project?
 
