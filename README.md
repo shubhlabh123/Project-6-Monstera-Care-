@@ -7,8 +7,8 @@
 
 ![App Screenshot](./screenshot/Screenshot%20(53).png)
 
->I Deployed my Site on Netlify and Vercel. so you can check it out 👇
-<br> [https://monestra.netlify.app/)
+>I Deployed my Site on  Vercel. so you can check it out 👇
+<br> 
 <br> [https://project-6-monstera-care-m3jt-jekuzludm.vercel.app/)
 
 ## What I Learned from this Project?
