@@ -44,7 +44,7 @@
   display: flex;
 }
 #imgMain {
-  position: absolute;
+  position: fixed;
   top: 196px;
   bottom: 20px;
   left: 809px;
