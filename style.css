@@ -1,0 +1,385 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgb(238, 241, 238);
+}
+#navbarMonstera {
+  display: flex;
+  justify-content: space-between;
+  margin: 76px 48px 0px;
+}
+#navMid {
+  display: flex;
+  margin-top: 6px;
+  margin-left: 67px;
+  column-gap: 78px;
+  font-size: 23px;
+  text-shadow: 0px 0px 0px;
+  font-family: "Noto Sans Vai";
+  color: rgb(146, 145, 145);
+}
+#navEnd {
+  display: flex;
+  margin-top: 7px;
+  column-gap: 43px;
+}
+
+.First:nth-child(1) {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
+  text-decoration-color: rgb(32, 32, 32);
+}
+#navMid div h4 {
+  font-weight: 600;
+  color: rgb(32, 32, 32);
+}
+#midWholePart13 {
+  display: flex;
+  margin-top: 60px;
+}
+
+#midWhole {
+  display: flex;
+}
+#imgMain {
+  position: absolute;
+  top: 196px;
+  bottom: 20px;
+  left: 809px;
+  right: 0px;
+  height: 795px;
+  width: 605px;
+}
+#midWholePart1 {
+  margin-top: 204px;
+  margin-left: 54px;
+}
+#monstera {
+  font-size: 119px;
+  font-family: "Nunito Sans";
+  font-weight: 900;
+}
+.middle {
+  font-size: 26px;
+  font-family: "Noto Sans Vai";
+  letter-spacing: -1px;
+  margin-top: -42px;
+  color: rgba(0, 0, 0, 0.795);
+  font-weight: 100;
+}
+.mid {
+  font-size: 27px;
+}
+.mid li h1::before {
+  content: "";
+  border: 1.5px solid #808080;
+  border-radius: 100%;
+  width: 9px;
+  height: 10px;
+  display: inline-block;
+  padding: 1px;
+  margin-left: -44px;
+  margin-right: 20px;
+}
+
+#midWholePart11 li span {
+  position: relative;
+  left: 18px;
+}
+#midWholePart121 h1 {
+  margin-top: 0px;
+  font-size: 43px;
+  font-family: allerta;
+  color: white;
+  background-color: rgba(63, 119, 85, 0.993);
+  font-weight: normal;
+}
+#midWholePart122 img {
+  position: absolute;
+  bottom: -89px;
+  left: 380px;
+  right: 0px;
+  background-color: rgba(63, 119, 85, 0.993);
+}
+#midWholePart12 {
+  margin-left: 55px;
+}
+.btn {
+  padding: 10px 73px 10px 34px;
+  margin-top: 70px;
+  background-color: rgba(63, 119, 85, 0.993);
+  border-radius: 40px;
+  border-color: rgba(63, 119, 85, 0.993);
+  border: none;
+  border-bottom-color: rgba(63, 119, 85, 0.993);
+  border-block-color: rgba(63, 119, 85, 0.993);
+}
+.midWholePart13Parts {
+  display: flex;
+  margin-right: 39px;
+}
+#midWholePart13 {
+  display: flex;
+  margin-top: 115px;
+  margin-left: 16px;
+}
+.midWholePart13Parts h4 {
+  font-size: 22px;
+  font-family: allerta;
+}
+.midWholePart13Parts .text {
+  font-size: 11px;
+  color: black;
+  font-family: "Noto Sans Vai";
+  letter-spacing: 0px;
+}
+.stt {
+  margin-left: 10px;
+}
+@media only screen and (max-width: 1135px) {
+  #navEnd {
+    margin-left: 78px;
+  }
+  #navMid {
+    display: flex;
+    margin-top: 6px;
+    margin-left: -43px;
+    column-gap: 41px;
+    font-size: 19px;
+  }
+  #imgMain {
+    position: absolute;
+    top: 196px;
+    bottom: 20px;
+    left: 720px;
+    right: 0px;
+    height: 732px;
+    width: 422px;
+  }
+  #monstera {
+    font-size: 91px;
+  }
+  .middle {
+    font-size: 22px;
+  }
+  #midWholePart121 h1 {
+    margin-top: 0px;
+    font-size: 24px;
+  }
+  #midWholePart122 img {
+    position: absolute;
+    bottom: -13px;
+    left: 283px;
+    right: 0px;
+    background-color: rgba(63, 119, 85, 0.993);
+    width: 15px;
+  }
+  #midWholePart13 {
+    display: flex;
+    margin-top: 115px;
+    margin-left: -3px;
+    width: 79vh;
+  }
+  .midWholePart13Parts img {
+    height: 41px;
+  }
+  .midWholePart13Parts h4 {
+    font-size: 16px;
+    font-family: allerta;
+  }
+  .midWholePart13Parts .text {
+    font-size: 7px;
+    color: black;
+    font-family: "Noto Sans Vai";
+    letter-spacing: 0px;
+  }
+}
+@media only screen and (max-width: 970px) {
+  #navMid {
+    display: flex;
+    margin-top: 6px;
+    margin-left: -43px;
+    column-gap: 41px;
+    font-size: 13px;
+  }
+  .btn {
+    margin-top: 49px;
+  }
+  #monstera {
+    font-size: 72px;
+  }
+  .middle {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  #midWholePart121 h1 {
+    margin-top: 0px;
+    font-size: 16px;
+  }
+  .midWholePart13Parts img {
+    height: 21px;
+  }
+  .midWholePart13Parts h4 {
+    font-size: 13px;
+    font-family: allerta;
+  }
+  .midWholePart13Parts .text {
+    font-size: 7px;
+    color: black;
+    font-family: "Noto Sans Vai";
+    letter-spacing: 0px;
+    margin-top: 12px;
+  }
+  #imgMain {
+    position: absolute;
+    top: 196px;
+    bottom: 20px;
+    left: 612px;
+    right: 0px;
+    height: 732px;
+    width: 332px;
+  }
+  #navFirst img {
+    height: 31px;
+  }
+  #midWholePart122 img {
+    position: absolute;
+    bottom: 20px;
+    left: 241px;
+    right: 0px;
+    background-color: rgba(63, 119, 85, 0.993);
+    width: 12px;
+  }
+}
+@media only screen and (max-width: 846px) {
+  #navMid {
+    display: flex;
+    margin-top: 6px;
+    margin-left: 45px;
+    column-gap: 17px;
+    font-size: 13px;
+  }
+  #monstera {
+    font-size: 59px;
+  }
+  .middle {
+    font-size: 15px;
+    margin-top: 0px;
+  }
+  #midWholePart121 h1 {
+    margin-top: 0px;
+    font-size: 12px;
+  }
+  #imgMain {
+    position: absolute;
+    top: 196px;
+    bottom: 20px;
+    left: 575px;
+    right: 0px;
+    height: 732px;
+    width: 265px;
+  }
+  #midWholePart122 img {
+    position: absolute;
+    bottom: 48px;
+    left: 221px;
+    right: 0px;
+    background-color: rgba(63, 119, 85, 0.993);
+    width: 12px;
+  }
+  .btn {
+    margin-top: 70px;
+  }
+}
+@media only screen and (max-width: 362px) {
+  #navFirst img {
+    height: 36px;
+    margin-left: -31px;
+  }
+  #navbarMonstera {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 44px 0px;
+  }
+  #navMid {
+    display: none;
+  }
+  .cart {
+    margin-left: -17px;
+    height: 22px;
+  }
+  .user {
+    margin-left: -21px;
+    height: 22px;
+  }
+  .svg {
+    margin-left: -22px;
+    height: 22px;
+  }
+  #imgMain {
+    position: absolute;
+    top: 66px;
+    bottom: -10px;
+    left: 3px;
+    right: 0px;
+    height: 310px;
+    width: 357px;
+  }
+  #monstera {
+    font-size: 49px;
+    margin-top: 131px;
+    margin-left: -19px;
+  }
+  ul {
+    list-style: none;
+  }
+  .mid li h1::before {
+    content: "";
+    border: 0px solid #808080;
+  }
+  .middle {
+    font-size: 13px;
+    margin-top: 11px;
+    margin-left: -305px;
+    word-spacing: 6px;
+    text-align: center;
+  }
+  .btn {
+    margin-top: 31px;
+    margin-left: -37px;
+  }
+  #midWholePart122 img {
+    position: absolute;
+    bottom: 140px;
+    left: 232px;
+    right: 17px;
+    background-color: rgba(63, 119, 85, 0.993);
+    width: 11px;
+  }
+  #midWholePart121 h1 {
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  #midWholePart13 {
+    display: flex;
+    margin-top: 50px;
+    margin-left: -43px;
+    width: 79vh;
+  }
+  .midWholePart13Parts h4 {
+    font-size: 15px;
+    font-family: allerta;
+  }
+  .midWholePart13Parts .text {
+    font-size: 3px;
+    color: black;
+    font-family: "Noto Sans Vai";
+    letter-spacing: 0px;
+    margin-top: 12px;
+  }
+  .midWholePart13Parts img {
+    height: 33px;
+  }
+}
